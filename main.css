@@ -1,0 +1,78 @@
+.outline-box {
+    border-radius: 10px;
+    border: 2px solid #eee;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.profile-icon {
+    font-size: 110px;
+    margin: 0px 20px 0px 20px;
+}
+
+.pill {
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 100px;
+    padding: 3px 12px 5px 12px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
+.project-header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.project-item {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+.project-item1 { background-image: url(image/portfolio-1.jpg); }
+.project-item2 { background-image: url(image/portfolio-2.jpg); }
+.project-item3 { background-image: url(image/portfolio-3.jpg); }
+.project-text {
+    color: white;
+    padding: 70px;
+}
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: transparent;
+    border: 0px solid white;
+    transition: border 0.5s;
+}
+.white-box:hover {
+    border: 30px solid white;
+    /* cursor: pointer; */
+}
+
+.chk_btn-displayNone input{
+    display: none;
+}
+.menu-1 {
+    display: none;
+    border: 1px solid #ffc107;
+}
+.menu-2 {
+    display: none;
+    border: 1px solid #198754;
+}
+.menu-3 {
+    display: none;
+    border: 1px solid #0d6efd;
+}
+#check-btn1:checked ~ .menu-1 { display: block; }
+#check-btn2:checked ~ .menu-2 { display: block; }
+#check-btn3:checked ~ .menu-3 { display: block; }
+
+footer {
+    background-color: cadetblue;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
